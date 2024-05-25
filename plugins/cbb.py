@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : create link for more than one posts\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast any messages to bot users\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/anime_bash>Anime Bash</a></b>",
+            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : create link for more than one posts\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast any messages to bot users\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/EARNING_LOOTO>EARNING LOOTO</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Creator - @Rcbkafan\nMy Channel - @Anime_bash\nDicsussion Group - @anime_bash_chat</a>\n\n👨‍💻 Developed by @Officialcreater</b>",
+            text = f"<b>Creator - @GOKUBHAI\nMy Channel - @EARNING_LOOTO\n👨‍💻 Developed by @GOKUBHAI</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
